@@ -13,16 +13,8 @@
       ]
     },
     "Git": "2.22.0",
-    "jdk": "11.0.3",
-    "vs": {
-      "version": "16.3",
-      "components": [
-        "Microsoft.VisualStudio.Component.VC.ATL",
-        "Microsoft.VisualStudio.Component.VC.Tools.x86.x64",
-        "Microsoft.VisualStudio.Component.Windows10SDK.17134"
-      ],
-      "Prefer64bit": true
-    }
+    "jdk": "11.0.3"
+    
   },
   "msbuild-sdks": {
     "Yarn.MSBuild": "1.22.10",
