@@ -211,7 +211,7 @@ namespace Microsoft.AspNetCore.Authentication
             Response.StatusCode = 401;
             return Task.CompletedTask;
         }
-
+        // AuthenticationHandler 的 ChallengeAsync 方法 会由 AuthorizationMiddleware 调用
         public async Task ChallengeAsync(AuthenticationProperties properties)
         {
             var target = ResolveTarget(Options.ForwardChallenge);
